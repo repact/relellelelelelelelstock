@@ -2,10 +2,201 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://discord.gg/sUkmgCvMFY">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restock.lol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+        }
+        .dark-mode & {
+            background-color: #1a1a1a;
+            color: white;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        main h2 {
+            border-bottom: 1px solid #ccc;
+            margin-top: 0;
+            padding-bottom: 0.5rem;
+        }
+        main h3 {
+            margin-top: 2rem;
+            color: white;
+        }
+        main p {
+            margin-bottom: 1rem;
+            color: white;
+        }
+        main a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        main a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 0.5rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 2rem 0;
+            cursor: pointer;
+        }
+        button a {
+            color: white;
+        }
+        button a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        .dark-mode footer {
+            background-color: #333;
+        }
+        .dark-mode a {
+            color: white;
+        }
+        .dark-mode button {
+            background-color: #333;
+        }
+        .dark-mode button a {
+            color: white;
+        }
+        .dark-mode header {
+            background-color: #333;
+        }
+        .dark-mode main h3 {
+            color: #ddd;
+        }
+        .dark-mode main p {
+            color: #ddd;
+        }
+        #dark-mode-toggle {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: color 0.5s ease;
+            z-index: 10;
+        }
+        .dark-mode #dark-mode-toggle {
+            color: white;
+        }
+    </style>
+    <script>
+        document.documentElement.classList.add("dark-mode");
+        document.getElementById("dark-mode-toggle").addEventListener("click", function() {
+            document.documentElement.classList.toggle("dark-mode");
+        });
+    </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://discord.gg/sUkmgCvMFY">link</a>.</p>
+    <header>
+        <h1>Welcome to restock.lol</h1>
+    </header>
+    <main>
+        <h2>Features</h2>
+        <section id="account-generator" class="feature-section">
+            <h3>Account Generator</h3>
+            <p>
+                Our account generator offers support for generating various types of accounts, including Crunchyroll, Hotmail, and more.
+            </p>
+        </section>
+        <section id="card-generator" class="feature-section">
+            <h3>Card Generator</h3>
+            <p>
+                Our card generator supports credit cards, Amazon store cards, and more. With a 100% hit rate and many more options.
+            </p>
+        </section>
+        <section id="nitro-generator" class="feature-section">
+            <h3>Nitro Generator</h3>
+            <p>
+                Our nitro generator will generate Discord Nitro accounts for you. You can use these accounts to get access to special perks and features on Discord.
+            </p>
+        </section>
+        <section id="turkish-vcc" class="feature-section">
+            <h3>Turkish VCC</h3>
+            <p>
+                We offer Turkish virtual credit cards for secure online transactions.
+            </p>
+        </section>
+        <section id="paypal-logs" class="feature-section">
+            <h3>PayPal Logs</h3>
+            <p>
+                We provide access to extensive PayPal logs to track transactions and user activity.
+            </p>
+        </section>
+        <section id="cc-logs" class="feature-section">
+            <h3>Credit Card Logs</h3>
+            <p>
+                Get access to detailed credit card logs for analyzing transactions and patterns.
+            </p>
+        </section>
+        <section id="b4u" class="feature-section">
+            <h3>B4U</h3>
+            <p>
+                Our B4U service allows you to purchase items from Amazon, and we'll handle the transaction for a fraction of the price.
+            </p>
+        </section>
+        <section id="spotify-premium" class="feature-section">
+            <h3>Spotify Premium Accounts</h3>
+            <p>
+                Enjoy unlimited music with our Spotify premium accounts. Share with friends and family and take your music experience to the next level.
+            </p>
+        </section>
+        <section id="amazon-aged" class="feature-section">
+            <h3>Amazon Aged Accounts</h3>
+            <p>
+                We offer a variety of aged Amazon accounts, perfect for any need. Choose from different age ranges and configurations.
+            </p>
+        </section>
+        <section id="server-boosts" class="feature-section">
+            <h3>Server Boosts</h3>
+            <p>
+                Our server boosts are an affordable way to enhance your Discord server's features and visibility.
+            </p>
+        </section>
+        <section id="discord-members" class="feature-section">
+            <h3>Discord Members</h3>
+            <p>
+                We provide real Discord members to help grow and engage your Discord community.
+            </p>
+        </section>
+        <button>
+            Join Our Discord
+            <a href="https://discord.gg/eHPAVB5BYn" target="_blank"></a>
+        </button>
+    </main>
+    <footer>
+        <p>&copy; 2023 restock.lol. All rights reserved.</p>
+    </footer>
+    <i id="dark-mode-toggle" class="fas fa-moon"></i>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </body>
 </html>
